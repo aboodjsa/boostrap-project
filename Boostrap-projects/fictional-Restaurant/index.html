@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swahili Delights Restaurant 🇰🇪</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ✅ Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    /* === GENERAL STYLING === */
+    body {
+      transition: background-color 0.4s, color 0.4s;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* === HERO SECTION === */
+    .hero {
+      background: url('hero.jpg') center/cover no-repeat; /* ⬅️ Replace with your own hero image */
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    /* Dark overlay for text readability */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* === WHATSAPP FLOATING BUTTON === */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      transition: transform 0.3s;
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+
+    /* === DARK MODE === */
+    body.dark-mode {
+      background-color: #121212;
+      color: #f8f9fa;
+    }
+    body.dark-mode .navbar {
+      background-color: #1e1e1e !important;
+    }
+    body.dark-mode footer {
+      background-color: #1e1e1e;
+    }
+    body.dark-mode .card,
+    body.dark-mode .form-control {
+      background-color: #1e1e1e;
+      border-color: #333;
+      color: #f8f9fa;
+    }
+
+    /* === FLAG ICON === */
+    .flag-icon {
+      width: 32px;
+      height: 22px;
+      margin-right: 8px;
+      border-radius: 2px;
+      object-fit: cover;
+      box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ✅ NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <!-- Kenyan flag + Restaurant name -->
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+        <!-- ✅ Always visible flag via CDN -->
+        <img src="https://flagcdn.com/w40/ke.png" alt="Kenyan Flag" class="flag-icon">
+        Swahili Delights
+      </a>
+
+      <!-- Toggle for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav me-3">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <!-- Dark Mode Toggle -->
+        <button id="modeToggle" class="btn btn-outline-light btn-sm">🌙 Dark Mode</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="display-4 fw-bold">Taste the Authentic Swahili Flavors</h1>
+      <p class="lead mb-4">From Mombasa to your plate — pure Kenyan hospitality.</p>
+      <a href="#menu" class="btn btn-danger btn-lg">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- ✅ MENU SECTION -->
+  <section id="menu" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Swahili Dishes 🍛</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <img src="biriani.jpg" class="img-fluid rounded mb-3" alt="Biriani ya Kuku">
+          <h5>Biriani ya Kuku</h5>
+          <p>Spiced chicken biryani served with fresh kachumbari.</p>
+          <p><strong>Ksh 850</strong></p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="chapati-beans.jpg" class="img-fluid rounded mb-3" alt="Chapati na Maharagwe">
+          <h5>Chapati na Maharagwe</h5>
+          <p>Soft, golden chapati served with rich beans stew.</p>
+          <p><strong>Ksh 400</strong></p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="pilau.jpg" class="img-fluid rounded mb-3" alt="Pilau">
+          <h5>Pilau</h5>
+          <p>Coastal-style rice with tender meat and Swahili spices.</p>
+          <p><strong>Ksh 600</strong></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ ABOUT US -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="about-us.jpg" class="img-fluid rounded" alt="Restaurant Interior">
+        </div>
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>Swahili Delights brings you the heart of Kenyan coastal cuisine. We mix traditional recipes with a modern twist — using local spices, fresh seafood, and authentic love.</p>
+          <p>Founded by passionate food lovers, we serve everything from biriani and pilau to viazi karai and samosas. Karibu chakula halisi cha Kenya 🇰🇪.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Get in Touch</h2>
+      <form class="col-md-8 mx-auto">
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button class="btn btn-dark w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ✅ FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">
+      © 2025 Swahili Delights 🇰🇪 | Designed by <strong>Abood Jamal Salim</strong>  
+      <br>
+      <a href="#" class="text-white mx-1"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white mx-1"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="text-white mx-1"><i class="bi bi-twitter"></i></a>
+    </p>
+  </footer>
+
+  <!-- ✅ WHATSAPP BUTTON -->
+  <a href="https://wa.me/254712345678" target="_blank" class="whatsapp-float" title="Chat with us on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- ✅ SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Toggle light/dark mode
+    const toggleButton = document.getElementById('modeToggle');
+    toggleButton.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      toggleButton.textContent = document.body.classList.contains('dark-mode')
+        ? '☀️ Light Mode'
+        : '🌙 Dark Mode';
+    });
+  </script>
+</body>
+</html>
