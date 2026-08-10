@@ -12,15 +12,15 @@ A modern, Kenyan-themed restaurant website built using **Bootstrap’s grid syst
 It highlights local Swahili cuisine and offers a clean, responsive design.
 
 ###  Features
-- Responsive **Bootstrap Navbar**
-- Hero section with restaurant background image
-- Swahili-inspired **Menu Grid** (3 dishes with image, title, description, and price)
-- **About Us** section using Bootstrap’s two-column layout
-- **Contact Form** with fields for name, email, and message
-- **Footer** with social links and Kenyan flag permanently visible
-- Clean typography and balanced color theme
+- **Bootstrap Navbar**
+- Hero with restaurant background image
+- Swahili **Menu Grid** (3 dishes with image, title, description, and price)
+- **About Us** Section with Bootstrap two-columns layout
+- **Contact Form** with name, email, and message fields
+- **Footer** with social media links and Kenyan flag
+- Elegant typography and harmonious colors
 
-### 🖼️ Preview Sections
+### Preview Sections
 - **Home**
 - **Menu**
 - **About Us**
@@ -28,21 +28,21 @@ It highlights local Swahili cuisine and offers a clean, responsive design.
 
 ---
 
-## 🦁 2. Safari Travel Agency Website
+##  2. Safari Travel Agency Website
 
-### 📖 Overview
-A travel agency landing page designed for a **Safari Adventure Company in Kenya**.  
-Built fully with **Bootstrap 5**, focusing on responsive layouts and easy navigation.
+###  Overview
+Travel agency landing page created for a **Safari Adventure Company in Kenya**.  
+Developed completely with **Bootstrap 5**, emphasizing responsive layouts and easy navigation.
 
-### ✨ Features
+###  Features
 - Bootstrap **Navbar** and **Hero Section** with background image
-- **Popular Destinations** showcased using Bootstrap Cards
-- **Tour Packages** section using an Accordion component
+- **Popular Destinations** presented with Bootstrap Cards
+- **Tour Packages** Section with the Accordion component
 - **Contact Form** with name, email, destination, and message fields
-- **Smooth Scroll** for the “Book Safari” button (links to Contact section)
-- Mobile-friendly design
+- **Smooth Scroll** for the “Book Safari” button (redirects to the Contact section)
+- Responsive design
 
-### 🖼️ Preview Sections
+###  Preview Sections
 - **Home / Hero**
 - **Destinations**
 - **Tours**
@@ -50,17 +50,18 @@ Built fully with **Bootstrap 5**, focusing on responsive layouts and easy naviga
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 - **HTML5**
 - **CSS3**
 - **Bootstrap 5**
-- **Unsplash** (for placeholder images)
+- **Unsplash** (images)
 
 ---
 
-## 📫 Contact
-👤 **Author:** Abood Jamal Salim  
-📍 Kenya  
+### 📝 Note
+These projects are quite easy and beginner-level examples of **the use of Bootstrap grid and components** to create beautiful websites.
+
+---
 
 ---
 
