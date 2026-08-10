@@ -58,14 +58,5 @@ Developed completely with **Bootstrap 5**, emphasizing responsive layouts and ea
 
 ---
 
-### 📝 Note
+### Note
 These projects are quite easy and beginner-level examples of **the use of Bootstrap grid and components** to create beautiful websites.
-
----
-
----
-
-### 📝 Note
-Both projects are simple, beginner-friendly examples showing the power of **Bootstrap’s grid and components** in creating responsive, visually appealing websites.
-
----
