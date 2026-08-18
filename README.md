@@ -1,4 +1,4 @@
-# Bootstrap Projects by Abood Jamal Salim
+#Boostrap Projects By Abood Jamal Salim 
 
 Welcome to my **Bootstrap Projects** collection!  
 This repository includes two fully responsive web projects built using **HTML, CSS, and Bootstrap 5** — designed as part of my GOMYCODE learning journey.
@@ -13,14 +13,14 @@ It highlights local Swahili cuisine and offers a clean, responsive design.
 
 ###  Features
 - **Bootstrap Navbar**
-- Hero with restaurant background image
+- Hero has a Restaurant as the background image
 - Swahili **Menu Grid** (3 dishes with image, title, description, and price)
 - **About Us** Section with Bootstrap two-columns layout
 - **Contact Form** with name, email, and message fields
 - **Footer** with social media links and Kenyan flag
 - Elegant typography and harmonious colors
 
-### Preview Sections
+### Preview sections
 - **Home**
 - **Menu**
 - **About Us**
@@ -31,18 +31,17 @@ It highlights local Swahili cuisine and offers a clean, responsive design.
 ##  2. Safari Travel Agency Website
 
 ###  Overview
-Travel agency landing page created for a **Safari Adventure Company in Kenya**.  
-Developed completely with **Bootstrap 5**, emphasizing responsive layouts and easy navigation.
+Landing page made for the **Safari adventure company from Kenya**.  
+Built using the entire **Bootstrap 5 framework**, which focuses on responsiveness and ease of navigation.
 
 ###  Features
-- Bootstrap **Navbar** and **Hero Section** with background image
-- **Popular Destinations** presented with Bootstrap Cards
-- **Tour Packages** Section with the Accordion component
-- **Contact Form** with name, email, destination, and message fields
-- **Smooth Scroll** for the “Book Safari” button (redirects to the Contact section)
-- Responsive design
+- Bootstrap **navigation bar** and **hero section** with background image
+- **Popular Destinations** displayed in Bootstrap cards
+- **Tour Packages** section with Accordion widget
+- **Contact Us** form with name, email address, destination and message inputs
+- Smooth **scroll** to the “Book Safari” button (leads to Contact section)
 
-###  Preview Sections
+###  Pages Preview
 - **Home / Hero**
 - **Destinations**
 - **Tours**
